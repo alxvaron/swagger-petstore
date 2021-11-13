@@ -50,4 +50,4 @@ jobs:
           app-name: 'petsoree7-rg'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F47C66C3EF14A18912AF6D7327D71D6 }}
-          package: '*.jar'
+          package: '*.war'
